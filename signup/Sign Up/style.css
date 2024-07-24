@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    background-image: url(Hotel.jpg);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.15); /* Transparent white */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque white */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: rgba(255, 255, 255, 1); /* Fully opaque white on focus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.message.success {
+    color: #4caf50;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.message.error {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+}
