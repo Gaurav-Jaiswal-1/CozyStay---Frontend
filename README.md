@@ -16,4 +16,3 @@ CozyStay features a dynamic and responsive frontend for a hotel booking website,
 **Interactive Elements:** Utilizes JavaScript for dynamic content and seamless interactions.
 
 
-The frontend is designed to integrate seamlessly with the backend, providing a smooth and efficient user experience.
